@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h3>HTML Form</h3>
+            <form>
+                <label for="name">Your Name: 
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email: 
+                    <input type="text" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="text" id="phone" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick One Option</legend>
+                    <label for="apple">
+                        <input type="radio" name="phone" id="apple"> Apple
+                    </label>
+                    <label for="sumsung">
+                        <input type="radio" name="phone" id="sumsung"> Sumsung
+                    </label>
+                    <label for="pixel">
+                        <input type="radio" name="phone" id="pixel"> Pixel
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pic One or More Option</legend>
+                    <label for="gadgets">
+                        <input type="checkbox" name="gadgets" id="phone"> Phone
+                    </label>
+                    <label for="gadgets">
+                        <input type="checkbox" name="gadgets" id="laptop"> Laptop
+                    </label>
+                    <label for="gadgets">
+                        <input type="checkbox" name="gadgets" id="PC"> PC
+                    </label>
+                </fieldset>
+                <input class="resub" type="reset" value="Reset">
+                <input class="resub" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
