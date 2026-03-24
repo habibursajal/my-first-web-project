@@ -1,30 +1,57 @@
-.htmlform{
+.htmlform {
     margin: 10px;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 10px;
 }
 
-.resub{
+.resub {
     background-color: tomato;
     margin: 10px;
 }
 
-fieldset{
+fieldset {
     font-style: italic;
     color: blue;
     background-color: aquamarine;
     margin: 10px;
+    border: 1px solid black;
 }
 
-.sres{
+.sres {
     background-color: mistyrose;
     margin: 10px;
 }
 
-.intype{
+.intype {
     background-color: beige;
     margin: 10px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.form3 {
+    width: 1000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gender-group {
+    margin-bottom: 10px;
+}
+
+.gender-group label {
+    display: inline-block;
+    margin-left: 10px;
 }
