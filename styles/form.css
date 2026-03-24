@@ -1,3 +1,7 @@
+.htmlform{
+    margin: 10px;
+}
+
 label{
     display: block;
     margin-bottom: 10px;
@@ -12,8 +16,15 @@ fieldset{
     font-style: italic;
     color: blue;
     background-color: aquamarine;
+    margin: 10px;
 }
 
 .sres{
     background-color: mistyrose;
+    margin: 10px;
+}
+
+.intype{
+    background-color: beige;
+    margin: 10px;
 }
