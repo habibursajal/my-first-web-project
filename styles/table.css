@@ -1,5 +1,9 @@
-table {
+.table1 {
     border-collapse: collapse;
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: mistyrose;
 }
 
 td, th {
@@ -8,7 +12,9 @@ td, th {
 }
 
 .table2{
+    border-collapse: collapse;
     margin-left: 10px;
-    padding: 10px;
-    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
 }
